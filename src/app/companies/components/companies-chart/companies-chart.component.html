@@ -1,0 +1,19 @@
+<mat-form-field class="items__category">
+	<mat-select placeholder="Category" [(value)]="selectedCategory" (selectionChange)="selectCategory($event)">
+	  <mat-option *ngFor="let category of categories" [value]="category">{{ category }}</mat-option>
+	</mat-select>
+</mat-form-field>
+
+<mat-form-field class="items__entries">
+	<mat-select placeholder="Entry" [(value)]="selectedEntry" (selectionChange)="selectCompany($event)">
+	  <mat-option value="All entries">All entries</mat-option>
+	  <mat-option *ngFor="let item of items" [value]="item.id">{{ item.name }}</mat-option>
+	</mat-select>
+</mat-form-field>
+
+<div [chart]="chart"></div>
+
+<button class="open-company__button" [ngClass]="{ 'hide': hideOpenCompanyButton }" (click)='openCompany($event)' mat-raised-button color="primary">Open</button>
+
+<div class="mat-display-1">Month: {{ selectedItemsMonthBalance }} </div>
+<div class="mat-display-1">Balance: {{ selectedItemsBalance }}</div>

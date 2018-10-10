@@ -1,0 +1,114 @@
+{
+  "companies": [{
+    "id": 1,
+    "name": "Google",
+    "type": "Search",
+    "revenuePerWeek": {
+      "monday": 12,
+      "tuesday": 5,
+      "wednesday": 34,
+      "thursday": 15,
+      "friday": 10,
+      "saturday": 21,
+      "sunday": 20
+    },
+    "revenue": 1500,
+    "monthRevenue": 345
+  },
+  {
+    "id": 2,
+    "name": "Twitter",
+    "type": "Social network",
+    "revenuePerWeek": {
+      "monday": 22,
+      "tuesday": 5,
+      "wednesday": 4,
+      "thursday": 11,
+      "friday": 13,
+      "saturday": 21,
+      "sunday": 17
+    },
+    "revenue": 1210,
+    "monthRevenue": 305
+  },
+  {
+    "id": 3,
+    "name": "Facebook",
+    "type": "Social network",
+    "revenuePerWeek": {
+      "monday": 11,
+      "tuesday": 12,
+      "wednesday": 13,
+      "thursday": 14,
+      "friday": 15,
+      "saturday": 16,
+      "sunday": 17
+    },
+    "revenue": 1620,
+    "monthRevenue": 385
+  },
+  {
+    "id": 4,
+    "name": "Youtube",
+    "type": "Video sharing",
+    "revenuePerWeek": {
+      "monday": 11,
+      "tuesday": 10,
+      "wednesday": 12,
+      "thursday": 14,
+      "friday": 13,
+      "saturday": 15,
+      "sunday": 18
+    },
+    "revenue": 1450,
+    "monthRevenue": 325
+  },
+  {
+    "id": 5,
+    "name": "Yahoo",
+    "type": "Search",
+    "revenuePerWeek": {
+      "monday": 17,
+      "tuesday": 16,
+      "wednesday": 13,
+      "thursday": 9,
+      "friday": 7,
+      "saturday": 6,
+      "sunday": 14
+    },
+    "revenue": 1330,
+    "monthRevenue": 315
+  },
+  {
+    "id": 6,
+    "name": "Telegram",
+    "type": "Messenger",
+    "revenuePerWeek": {
+      "monday": 8,
+      "tuesday": 2,
+      "wednesday": 3,
+      "thursday": 1,
+      "friday": 4,
+      "saturday": 9,
+      "sunday": 5
+    },
+      "revenue": 700,
+    "monthRevenue": 205
+  },
+  {
+    "id": 7,
+    "name": "Empty Company",
+    "type": "none",
+    "revenuePerWeek": {
+      "monday": 0,
+      "tuesday": 0,
+      "wednesday": 0,
+      "thursday": 1,
+      "friday": 0,
+      "saturday": 0,
+      "sunday": 0
+    },
+      "revenue": 1,
+    "monthRevenue": 0
+  }]
+}

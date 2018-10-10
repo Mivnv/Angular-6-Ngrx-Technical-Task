@@ -1,0 +1,15 @@
+.items__category {
+	left: 36px;
+}
+
+.items__entries {
+	left: 100px;
+}
+
+.open-company__button {
+	left: 50%;
+}
+
+.hide {
+	display: none !important;
+}
